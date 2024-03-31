@@ -1,14 +1,14 @@
-# OpenAIChatbot
+# OpenAIChatbot:
 This is a user-friendly chatbot application powered by OpenAI's technology. It allows you to upload your own document, which it then analyzes to provide answers to your questions.
 
-## Prerequisites
+## Prerequisites:
 Before running the application, make sure you have the following installed:
 
 - Python (version 3.7 or later)
 - Streamlit
 - ngrok (optional, for making the app accessible via the internet)
 
-## Installation
+## Installation:
 
 1. Clone this repository:
 
@@ -41,6 +41,7 @@ To create a virtual environment (`venv`) and install packages from a `requiremen
    ```
 
    Replace `myenv` with the name you want to give to your virtual environment.
+   Note: You can then add this virtual environment in the Pycharm interpreter setting to avoid any IDE error.
 
 2. **Activate the virtual environment**:
    After creating the virtual environment, you need to activate it. The activation command varies depending on your operating system:
@@ -101,6 +102,5 @@ If you want to make the app accessible via the internet, you can use ngrok. This
 
    Note: The public URL provided by ngrok is temporary and may change every time you restart ngrok.
 
-## Support
-
-If you encounter any issues or have any questions, feel free to open an issue in this repository or contact the maintainers.
+## Demo Chat:
+![Demo Chat](AppInAction.png)
